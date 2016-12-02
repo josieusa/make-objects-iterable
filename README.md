@@ -48,7 +48,7 @@ Pros:
 Like this:
 
       for ({ k: anotherName, v: yetAnotherName } of object) {
-          console.log(subField2);
+          console.log(anotherName, yetAnotherName);
           // TODO
       }
 
