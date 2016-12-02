@@ -12,6 +12,18 @@ Because with this repo you'll be able to do this:
 
 Call `makeObjectsIterable()` at the beginning of your app in order to modify the `Object` prototype.
 
+## Where?
+
+In Node 6 LTS.
+
+## When?
+
+I'm going to make a NPM module out of this repo, but please don't ask for an ETA.
+
+## Who?
+
+Me.
+
 ## Wait, weren't global variables and global side effects considered harmful?
 
 Yes. They also make your code less FP-style. And functional programming is going to conquer the world. In fact, this repo is powerful, but with great power comes great responsibility.
@@ -43,7 +55,3 @@ Like this:
 ## Where to look for more help?
 
 Study ES6 destructuring assignment on Mozilla Developer Network.
-
-## Are you going to make a NPM module out of this repo?
-
-Yes, but please don't ask for an ETA.
