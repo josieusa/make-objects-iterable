@@ -32,10 +32,10 @@ Yes. They also make your code less FP-style. And functional programming is going
 
 Pros:
 
-* You can destructure both the n-th value and one of its fields at once, like this:
+* You can destructure both the n-th value and one or more of its sub-fields at once, like this:
 
-        for ({ k, v, v: { subField1: { subField2 } } } of object) {
-            console.log(subField2);
+        for ({ k, v, v: { subField1 }, v: { subField1: { subField2 } } } of object) {
+            console.log(subField1, subField2);
             // TODO
         }
   
