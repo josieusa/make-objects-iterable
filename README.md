@@ -39,7 +39,7 @@ Pros:
             // TODO
         }
   
-  You could not do this if you destructure with `[key, value]` instead. It's even disallowed by this repo. Use `Object.prototype.entries()` if you want to do that anyway.
+  You could not do this if you destructured with `[key, value]` instead. It's even disallowed by this repo. Use `Object.prototype.entries()` if you want to do that anyway.
 * The curly braces instead of the square brackets further clarify that the variable being iterated is an object
 * If you don't need the key inside the `for...of` loop, you can just omit it
 
